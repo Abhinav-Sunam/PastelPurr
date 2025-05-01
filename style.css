@@ -44,10 +44,20 @@ nav .left ul a{
  
 }
 
+nav .left ul a:hover{
+    color: rgb(236, 187, 116);
+   
+    
+   }
+
 nav .right ul a{
  color: #A0C878;
  margin: 40px;
 }
+
+nav .right ul a:hover{
+    color: rgb(236, 187, 116);
+   }
 
 main h1{
     font-size: 50px;
@@ -161,4 +171,11 @@ main button:hover{
 
 div .img{
     width:0px;
+}
+
+h6{
+    margin-top: 130px;
+    font-size: 10px;
+    color: #A0C878;
+    text-align: center;
 }
