@@ -47,10 +47,6 @@ nav .right ul a{
  margin: 40px;
 }
 
-main{
-   
-}
-
 main h1{
     font-size: 50px;
     font-weight: 900;
@@ -72,9 +68,57 @@ main img{
 }
 
 
-.boxs{
-    width: 280px;
-    height: 120px;
-    background-color: white;
-    border-radius: 15px;
+
+main button{
+    text-decoration: none;
+    border: none;
+    background-color: #A0C878;
+    color:#FFFDF6;
+    border-radius: 12px;
+    transform:translateX(385px) translateY(-130px);
+    cursor: pointer;
 }
+
+main button:hover{
+    background-color: rgb(236, 187, 116);
+}
+
+
+.box{
+    display:flex;
+    justify-content: space-around;
+}
+.box1{
+    width: 250px;
+    height: 155px;
+    background-color:  rgb(236, 187, 116);
+    border-radius: 15px;
+    display: flex; 
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: #FFFDF6;
+}
+
+.box2{
+    width: 250px;
+    height: 155px;
+    background-color:  rgb(236, 187, 116);
+    border-radius: 15px;
+    display: flex; 
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: #FFFDF6;
+
+}
+
+.box3{
+    width: 250px;
+    height: 155px;
+    background-color:  rgb(236, 187, 116);
+    border-radius: 15px;
+    display: flex; 
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: #FFFDF6;
+}
+
