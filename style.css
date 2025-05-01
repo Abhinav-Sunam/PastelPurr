@@ -14,11 +14,13 @@ html{
     height: 100%;
 }
 
-body{
+
+body {
     min-height: 100%;
     background: linear-gradient(180deg, white 10%, #FAF6E9);
     background-attachment: fixed;
-}
+    padding-bottom: 100px; /* 👈 This also works */
+  }
 
 nav{
     display: flex;
@@ -87,11 +89,14 @@ main button:hover{
 .box{
     display:flex;
     justify-content: space-around;
+    margin-top: 90px;
+    border-bottom: 100px;
+    cursor: pointer;
 }
 .box1{
     width: 250px;
     height: 155px;
-    background-color:  rgb(236, 187, 116);
+    background-color: #A0C878;
     border-radius: 15px;
     display: flex; 
     justify-content: center;
@@ -102,7 +107,7 @@ main button:hover{
 .box2{
     width: 250px;
     height: 155px;
-    background-color:  rgb(236, 187, 116);
+    background-color: #A0C878;
     border-radius: 15px;
     display: flex; 
     justify-content: center;
@@ -114,7 +119,7 @@ main button:hover{
 .box3{
     width: 250px;
     height: 155px;
-    background-color:  rgb(236, 187, 116);
+    background-color: #A0C878;
     border-radius: 15px;
     display: flex; 
     justify-content: center;
@@ -122,3 +127,38 @@ main button:hover{
     color: #FFFDF6;
 }
 
+.cats{
+    width:120px;
+    
+}
+
+.box1 .img img{
+    transform:translateX(-50px) translateY(-40px);
+}
+
+.box2 .img img{
+    transform:translateX(-50px) translateY(-40px);
+}
+
+.box3 .img img{
+    transform:translateX(-50px) translateY(-40px);
+}
+
+.data p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    padding: 10px;
+    color: #FFFDF6;
+    margin-top: 50px;
+}
+.box1 .img img,
+.box2 .img img,
+.box3 .img img {
+    transform: translateX(-50px) translateY(-40px);
+}
+
+div .img{
+    width:0px;
+}
